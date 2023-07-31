@@ -322,7 +322,7 @@ export const projectsData = [
         title: 'Ecommerce',
         description: 'Ecommerce con conexión a base de Datos',
         url: 'https://github.com/vortegar/bc_56936-proyecto_integrador-etapa_3-victorio_ortega',
-        img: '../../public/img/web.jpg',
+        img: './img/web.jpg',
         alt: 'Ecommerce web',
         ref: 'https://github.com/vortegar/bc_56936-proyecto_integrador-etapa_3-victorio_ortega',
         tech:{
@@ -337,7 +337,7 @@ export const projectsData = [
         title: 'Ecommerce guitarras',
         description: `Pagina web venta de guitarras`,
         url: 'https://github.com/vortegar/GuitarLA-Page---Bootstrap---Sass',
-        img: '../../public/img/web2.jpg',
+        img: './img/web2.jpg',
         alt: 'Ecommerce guitarras',
         ref: 'https://github.com/vortegar/GuitarLA-Page---Bootstrap---Sass',
         tech:{
@@ -351,7 +351,7 @@ export const projectsData = [
         title: 'App Buscador de Gif',
         description: `Buscador de Gif conectada con API.`,
         url: 'https://gif-expert-vor.netlify.app/',
-        img: '../../public/img/Web3.jpg',
+        img: './img/Web3.jpg',
         alt: 'Buscador Gif',
         ref: 'https://gif-expert-vor.netlify.app/',
         tech:{
@@ -365,7 +365,7 @@ export const projectsData = [
         title: 'Podcast Web',
         description: `Pagina web servicios de podcast.`,
         url: 'https://clinquant-torte-363774.netlify.app/',
-        img: '../../public/img/Web.jpg',
+        img: './img/Web.jpg',
         alt: 'Podcast web',
         ref: 'https://clinquant-torte-363774.netlify.app/',
         tech:{
@@ -378,7 +378,7 @@ export const projectsData = [
         title: 'Gestor de gastos',
         description: `Aplicación interactiva para llevar gastos.`,
         url: 'https://famous-bavarois-49578d.netlify.app/',
-        img: '../../public/img/Web2.jpg',
+        img: './img/Web2.jpg',
         alt: 'Calculadora',
         ref: 'https://chic-lebkuchen-10ce68.netlify.app/',
         tech:{
@@ -391,7 +391,7 @@ export const projectsData = [
         title: 'App Blackjack',
         description: `Juego clasico e interactivo de Blackjack.`,
         url: 'https://blackjackapp-vite.netlify.app',
-        img: '../../public/img/Web3.jpg',
+        img: './img/Web3.jpg',
         alt: 'Blackjack App',
         ref: 'https://blackjackapp-vite.netlify.app',
         tech:{
@@ -404,7 +404,7 @@ export const projectsData = [
         title: 'Citas veterinarias',
         description: `Sistema de citas para veterinaria.`,
         url: 'https://chic-lebkuchen-10ce68.netlify.app/',
-        img: '../../public/img/Web.jpg',
+        img: './img/Web.jpg',
         alt: 'Citas veterinaria',
         ref: 'https://chic-lebkuchen-10ce68.netlify.app/',
         tech:{
@@ -417,7 +417,7 @@ export const projectsData = [
         title: 'Journal App',
         description: `App para almacenar pendientes en un calendario.`,
         url: 'https://github.com/vortegar/Journal-App',
-        img: '../../public/img/Web2.jpg',
+        img: './img/Web2.jpg',
         alt: 'Jouranl app',
         ref: 'https://github.com/vortegar/Journal-App',
         tech:{
@@ -431,7 +431,7 @@ export const projectsData = [
         title: 'Heroes SPA',
         description: `Buscador de Heroes conectada a una API local.`,
         url: 'https://github.com/vortegar/Heroes-spa',
-        img: '../../public/img/Web3.jpg',
+        img: './img/Web3.jpg',
         alt: 'Heroes Spa',
         ref: 'https://github.com/vortegar/Heroes-spa',
         tech:{
@@ -447,7 +447,7 @@ export const projectsData = [
         title: 'Cotizar Cripto',
         description: `Cotizador de criptomonedas conectada a una API.`,
         url: 'https://luxury-elf-6360d3.netlify.app',
-        img: '../../public/img/Web.jpg',
+        img: './img/Web.jpg',
         alt: 'Cotizador Cripto',
         ref: 'https://luxury-elf-6360d3.netlify.app/',
         tech:{

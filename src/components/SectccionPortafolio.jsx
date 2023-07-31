@@ -48,7 +48,7 @@ export const SeccionPortafolio = () => {
                                     <img 
                                         id={index}
                                         src={project.img} 
-                                        className={`card-img-top text-center img_project_remove}`}
+                                        className={`card-img-top text-center}`}
                                         alt={project.alt}/>
                                 </div>
                                 <div className=" card card-body">
