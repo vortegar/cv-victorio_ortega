@@ -272,7 +272,7 @@ export const projectsData = [
 ]
 export const experienciaData = [
     {
-        title: 'Desarrollodor Web Freelance',
+        title: 'Desarrollador Web Freelance',
         subtitle:'Freelance',
         date: 'Marzo 2022 - Agosto 2022',
         description: `Elaborar paginas y aplicaciones web funcionales utilizando herramientas de desarrollo web como: HTML, React, 
@@ -285,14 +285,14 @@ export const experienciaData = [
         description: `Responsable del modelado BIM para las instalaciones eléctricas, telecomunicaciones y sistemas de control débiles en edificios y urbanizaciones. Mi trabajo consistía en resolver interferencias en el recorrido de estas instalaciones en relación con otras especialidades.`
     },
     {
-        title: 'Desarrolador web freelance',
+        title: 'Desarrollador web freelance',
         subtitle:'Freelance',
         date: 'Septiembre 2022 - Abril 2023',
         description: `Elaborar páginas y aplicaciones web funcionales utilizando herramientas de desarrollo web como HTML, React,
         Nodejs Express, CSS, Sass, Boostrap, javascript entre otros. Conocimiento en el sistema de versiones GIT.`
     },
     {
-        title: 'Desarrolador web freelance',
+        title: 'Desarrollador Front end',
         subtitle:'Digitech Solutions',
         date: 'Mayo 2023 - Actualidad',
         description: `Desarrollo y participación activamente en la planificación y el diseño de nuevos proyectos, colaborando con el equipo de diseño y el equipo de Back-end para lograr resultados integrales y cohesivos.`
