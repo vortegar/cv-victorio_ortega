@@ -1,9 +1,7 @@
 import { Pagination, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { experienciaData } from "../data/cvData"
-//import { Education } from "./Education"
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -18,7 +16,6 @@ export const SeccionSobreExperiencia = () => {
                 </div>
                 <div className='mb-2 px-0 col-12 d-flex justify-content-center align-items-center experiencia_contenido'>
                   <Swiper
-                    // install Swiper modules
                     modules={[ Pagination, A11y]}
                     A11y={{
                       delay:3000,
