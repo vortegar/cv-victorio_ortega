@@ -1,20 +1,25 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;600&family=Raleway:wght@200;400;500;600&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 
+body{
+  background-color: #242424;
+}
 .navbar{
   --bs-navbar-toggler-focus-width: 0rem;
 }
 
 .navbar-color{
-  background: rgb(1, 79, 134);
+  background: rgb(30,30,30);
+  border-radius: 0 0 10px 10px;
 }
 
 .navbar-toggler{
@@ -22,32 +27,32 @@
 }
 
 .tag_link{
-  color: rgb(1, 79, 134) !important;
+  color: #6c757d;
+}
+
+.tag_link :hover{
+  color: white;
 }
 
 .text-nombre-color{
-  color: rgb(1, 79, 134);
+  color: #242424;
   text-decoration: none;
 }
 
+
 .text-nombre-educacion{
-  color: rgb(1, 79, 134);
+  color:rgb(174, 188, 201);
   font-weight: 900;
 }
 
-.text-color-principal{
-  color:black;
-}
-
 .color-boton{
-  background-color: rgb(1, 79, 134);
-  color: white;
+  background-color: rgb(30, 30, 30);
   width: 250px;
 }
 
 .color-boton:hover{
-  background-color: rgba(1, 78, 134, 0.318);
-  color: white;
+  background-color: rgba(40, 40, 40, 0.318);
+  color: white !important;
 }
 
 .tamaño-card-portafolio{
@@ -55,8 +60,10 @@
 }
 
 .name_cv{
-  height: 500px;
+  margin-top: 80px;
+  height: 400px;
   padding-top: 50px;
+  border-radius: 10px;
 }
 
 .sobre_mi{
@@ -203,6 +210,7 @@
 /* Sober Mi */
 .sobre_mi_text, .sobre_habilidades_text, .sobre_educacion_text{
   margin-top: 1rem; 
+
   font-size: 3.5rem;
   text-decoration: underline;
 }
@@ -211,16 +219,12 @@
   font-size: 2rem;
 }
 
-.sobre_habilidades_text, .sobre_habilidades_img{
-  color: #ffffff;
-}
-
 .sobre_habilidades{
   margin-top: 10rem; 
   border-radius: 2rem;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-  background-color: rgb(1, 79, 134);
-
+  background: rgb(0,40,40);
+  background: linear-gradient(123deg, rgba(30,30,30,1) 0%, rgba(35,35,35,1) 50%, rgba(40,40,40,1) 100%);
 }
 
 .img_sobre_mi {
@@ -231,15 +235,19 @@
 
 .sobre_educacion{
   border-radius: 2rem;
-  border: 1px solid #c8c8c8;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  background: rgb(0,40,40);
+  background: linear-gradient(123deg, rgba(30,30,30,1) 0%, rgba(35,35,35,1) 50%, rgba(40,40,40,1) 100%);
+
 }
 
 .project_description{
   font-size: 14px;
 }
 
-
+.text-tittle-nombre-color{
+  color: rgb(174, 188, 201)
+}
 
 /* Cambiar el color de la barra de desplazamiento */
 ::-webkit-scrollbar {
@@ -258,7 +266,7 @@
 
 /* Cambiar el color del pulgar de la barra de desplazamiento */
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(1, 79, 134);
+  background-color: rgb(30, 30, 30);
   border-radius: 2px;
 }
 
@@ -269,11 +277,12 @@
 
 
 .sobre_experiencia{
-  background-image: url('../public/img/imagen-pc-768x500.jpg');
+  background: rgb(0,40,40);
+  background: linear-gradient(123deg, rgba(30,30,30,1) 0%, rgba(35,35,35,1) 50%, rgba(40,40,40,1) 100%);
 }
 
 .sobre_experiencia_text{
-  color: white;
+  color: #aebcc9;
   font-size: 3.5rem;
   text-decoration: underline;
 }
@@ -287,14 +296,15 @@
 
 .experiencia_contenido .card .card-header{
   text-align: center;
-  color: white;
+  color: rgb(174, 188, 201);
   height: 70px;
-  background-color: rgb(1, 79, 134) ;
+  background-color: rgb(30, 30, 30) ;
 }
 
 .experiencia_contenido .card div.card-body{
   text-align: start;
-  color: black;
+  /* color: black; */
+  background-color: rgb(40,40,40) !important;
 }
 
 .experiencia_contenido{
@@ -315,9 +325,29 @@
   width: 12rem;
 }
 
-.hover_link:hover {
-  color: #909294 !important
+.hover_link {
+  color: #909294 !important;
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* Transición suave para color y borde inferior */
+  border-bottom: 2px solid transparent; /* Borde inferior inicial transparente */
 }
+
+.hover_link:hover {
+  color: white !important;
+  text-shadow: 0px 1px 1px white;
+  border-bottom: 2px solid white; /* Cambio del borde inferior al hacer hover */
+  animation: animateBorder 1s ease; /* Animación del borde inferior */
+}
+
+/* Definición de la animación del borde inferior */
+@keyframes animateBorder {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%; /* Ancho completo del borde inferior */
+  }
+}
+
 .contenedor_project{
   overflow:hidden;
   border: solid 1px #d2d2d2;
@@ -395,7 +425,7 @@
   }
 
   .sobre_experiencia{
-    background-image: url('../public/img/imagen-pc-1200x500.jpg');
+    /* background-image: url('../public/img/imagen-pc-1200x500.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

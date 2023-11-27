@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { projectsData } from "../data/cvData"
+import { Fade } from "react-awesome-reveal";
 
 export const SeccionPortafolio = () => {
     const [selectImg, setSelectImg] = useState('');
@@ -31,12 +32,13 @@ export const SeccionPortafolio = () => {
         setSelectImg('')
     }
 
-  return (    
-    <section className='container sobre_proyectos-contenedor' id="Proyectos">
+  return (   
+     <Fade>
+        <section className='container sobre_proyectos-contenedor' id="Proyectos">
         <div className="row sobre_proyectos">
             <div className="col-12">
-                <h2 className='fw-bold text-center pt-5 pb-5 sobre_educacion_text text-body-tertiary d-flex justify-content-center'>
-                    <p className="text-nombre-color">P</p>ortafolio.</h2>
+                <h2 className='fw-bold text-center pt-5 pb-5 sobre_educacion_text text-secondary d-flex justify-content-center'>
+                    <p className="text-secondary">P</p>ortafolio.</h2>
             </div>
             <div className='col-12 d-flex flex-wrap gap-3 justify-content-center'>
                     
@@ -57,31 +59,31 @@ export const SeccionPortafolio = () => {
                                     <p className="card-text text-start fw-bold">tecnologias</p>
                                     <div className='mb-3 text-start'>
                                         {
-                                            (project.tech.javascript) && <i className="fa-brands fa-square-js fa-xl me-3" style={{ color: '#014f86'}}></i>
+                                            (project.tech.javascript) && <i className="fa-brands fa-square-js fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
                                         }
                                         {
-                                            (project.tech.bootstrap) && <i className="fa-brands fa-bootstrap fa-xl me-3" style={{ color: '#014f86'}}></i>
+                                            (project.tech.bootstrap) && <i className="fa-brands fa-bootstrap fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
                                         }
                                         {
-                                            (project.tech.nodeJs) && <i className="fa-brands fa-node-js fa-xl me-3" style={{ color: '#014f86'}}></i>
+                                            (project.tech.nodeJs) && <i className="fa-brands fa-node-js fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
                                         }
                                         {
-                                            (project.tech.sass) && <i className="fa-brands fa-sass fa-xl me-3" style={{ color: '#014f86'}}></i>
+                                            (project.tech.sass) && <i className="fa-brands fa-sass fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
                                         }
                                         {
-                                            (project.tech.react) && <i className="fa-brands fa-react fa-xl me-3" style={{ color: '#014f86'}}></i>
+                                            (project.tech.react) && <i className="fa-brands fa-react fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
                                         }
                                         {
-                                            (project.tech.css) && <i className="fa-brands fa-css3 fa-xl me-3" style={{ color: '#014f86'}}></i>
+                                            (project.tech.css) && <i className="fa-brands fa-css3 fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
                                         }
                                         {
-                                            (project.tech.html) && <i className="fa-brands fa-html5 fa-xl me-3" style={{ color: '#014f86'}}></i>
+                                            (project.tech.html) && <i className="fa-brands fa-html5 fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
                                         }
                                     </div>
                                     <a href={ project.ref } target='_blanck' >
                                         <button 
                                             onMouseEnter={() => changeStyles(project, index)} 
-                                            className="btn color-boton"
+                                            className="btn color-boton text-secondary"
                                             onMouseLeave={changeStylesDefault}
                                         >
                                             Visitar
@@ -95,6 +97,8 @@ export const SeccionPortafolio = () => {
                 }
             </div>
         </div>
-    </section>
+        </section>
+    </Fade>
+
   )
 }
