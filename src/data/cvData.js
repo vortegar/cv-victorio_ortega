@@ -87,6 +87,11 @@ export const habilitysData = [
         description: 'React',
         icons: 'fa-brands fa-react fa-2x'
     },
+    {
+        title: 'SQL',
+        description: 'Base de datos',
+        icons: 'fa-solid fa-database fa-2x'
+    },
     // {
     //     title: 'TypesCript',
     //     description: 'TypesCript',
@@ -103,16 +108,15 @@ export const habilitysData = [
         icons: 'fa-brands fa-bootstrap fa-2x'
     },
     {
-        title: 'HTML',
-        description: 'HTML',
-        icons: 'fa-brands fa-html5 fa-2x'
-    },
-    {
         title: 'CSS',
         description: 'CSS',
         icons: 'fa-brands fa-css3-alt fa-2x'
     },
-   
+    {
+        title: 'HTML',
+        description: 'HTML',
+        icons: 'fa-brands fa-html5 fa-2x'
+    },
     {
         title: 'GIT',
         description: 'GIT',
@@ -128,6 +132,7 @@ export const habilitysData = [
         description: 'Trello',
         icons: 'fa-brands fa-trello fa-2x'
     },
+
 ]
 
 export const projectsData = [

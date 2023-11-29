@@ -14,7 +14,9 @@ export const SeccionSobreExperiencia = () => {
           <div className="container text-center sobre_experiencia">
               <div className='row'>
                   <div className='col-12'>
-                      <h2 className='fw-bold text-center pt-5 pb-5 d-flex justify-content-center sobre_experiencia_text'>E<p className='text-secondary'>xperiencia.</p></h2>
+                      <h2 className='fw-bold text-center pt-5 pb-5 d-flex justify-content-center sobre_experiencia_text'>
+                        E<p className='text-secondary'>xperiencia</p><img src="../../public/img/experiencia.png" alt="Experiencia" className="img-custom-size"/>
+                      </h2>
                   </div>
                   <div className='mb-2 px-0 col-12 d-flex justify-content-center align-items-center experiencia_contenido'>
                     <Swiper
@@ -56,7 +58,7 @@ export const SeccionSobreExperiencia = () => {
                     >
                       {experienciaData.map((data,index)=>(
                         <SwiperSlide key={index}>
-                          <div className="card border-light mb-5 mx-auto">
+                          <div className="card mb-5 mx-auto sobre_experiencia-card">
                             <div className="card-header">
                               <h5>{data.subtitle}</h5>
                               <p>{data.date}</p>
