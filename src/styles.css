@@ -85,6 +85,7 @@ body{
   height: 500px;
   margin-top: 150px;
   border-radius: 20px 20px 20px 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .educacion_contenido i{
@@ -241,7 +242,7 @@ body{
 .img_sobre_mi {
   height: 30rem;
   border-radius: 1rem;
-  filter: hue-rotate(180deg) blur(5px); /* Aplicar filtro para tonos azules y borde difuminado */
+  filter: hue-rotate(180deg) blur(5px); 
 }
 
 
