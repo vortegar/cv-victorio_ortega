@@ -81,6 +81,12 @@ body{
   padding-top: 250px;
 }
 
+.sobre_mi_img{
+  height: 500px;
+  margin-top: 150px;
+  border-radius: 20px 20px 20px 20px;
+}
+
 .educacion_contenido i{
   color: var(--bs-tertiary-color);
 }
@@ -235,7 +241,9 @@ body{
 .img_sobre_mi {
   height: 30rem;
   border-radius: 1rem;
+  filter: hue-rotate(180deg) blur(5px); /* Aplicar filtro para tonos azules y borde difuminado */
 }
+
 
 
 .sobre_educacion{
@@ -291,10 +299,20 @@ body{
   background-color: black !important;
 }
 
+.sobre_experiencia-inf{
+  color: rgb(174, 188, 201);
+
+}
+
 .sobre_experiencia_text, .sobre_mi_text{
   color: #aebcc9;
   font-size: 3.5rem;
   text-decoration: underline;
+}
+
+.sobre_mi_container{
+  background-color: rgb(30, 30, 30) ;
+  border-radius: 20px;
 }
 
 .experiencia_contenido .card{
@@ -331,21 +349,21 @@ body{
 }
 .sobre_proyectos .card-img-top{
   filter: blur(0.6px);
-  height: 12rem;
-  width: 12rem;
+  /* height: 20rem; */
+  width: 20rem;
 }
 
 .hover_link {
   color: #909294 !important;
-  transition: color 0.3s ease, border-bottom 0.3s ease; /* Transición suave para color y borde inferior */
-  border-bottom: 2px solid transparent; /* Borde inferior inicial transparente */
+  transition: color 0.3s ease, border-bottom 0.3s ease; 
+  border-bottom: 2px solid transparent; 
 }
 
 .hover_link:hover {
   color: white !important;
   text-shadow: 0px 1px 1px white;
-  border-bottom: 2px solid white; /* Cambio del borde inferior al hacer hover */
-  animation: animateBorder 1s ease; /* Animación del borde inferior */
+  border-bottom: 2px solid white; 
+  animation: animateBorder 1s ease; 
 }
 
 /* Definición de la animación del borde inferior */

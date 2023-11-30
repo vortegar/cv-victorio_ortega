@@ -45,6 +45,9 @@ export const SeccionPortafolio = () => {
                     
                 { projectsData.map( (project, index) => (    
                     <div key={project.title} className="d-flex flex-wrap">
+                        <Fade>
+
+                        
                         <div className="col-12 col-md-6">
                             <div className="tamaño-card-portafolio my-4 mx-auto text-center">
                                 <div className='contenedor_project'>
@@ -55,30 +58,30 @@ export const SeccionPortafolio = () => {
                                         alt={project.alt}/>
                                 </div>
                                 <div className=" card card-body">
-                                    <h5 className="card-title fw-bold text-start">{project.title}</h5>
-                                    <p className="card-text text-body-tertiary text-start project_description mb-1">{project.description}</p>
-                                    <p className="card-text text-start fw-bold">tecnologias</p>
-                                    <div className='mb-3 text-start'>
+                                    <h5 className="card-title fw-bold text-start ms-3 mt-2">{project.title}</h5>
+                                    <p className="card-text text-body-tertiary text-start project_descriptio mt-2 ms-3 me-3">{project.description}</p>
+                                    <p className="card-text text-start fw-bold mt-2 ms-3">tecnologias:</p>
+                                    <div className='mb-3 ms-3 text-start'>
                                         {
-                                            (project.tech.javascript) && <i className="fa-brands fa-square-js fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
+                                            (project.tech.javascript) && <i className="fa-brands fa-square-js fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
                                         }
                                         {
-                                            (project.tech.bootstrap) && <i className="fa-brands fa-bootstrap fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
+                                            (project.tech.bootstrap) && <i className="fa-brands fa-bootstrap fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
                                         }
                                         {
-                                            (project.tech.nodeJs) && <i className="fa-brands fa-node-js fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
+                                            (project.tech.nodeJs) && <i className="fa-brands fa-node-js fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
                                         }
                                         {
-                                            (project.tech.sass) && <i className="fa-brands fa-sass fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
+                                            (project.tech.sass) && <i className="fa-brands fa-sass fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
                                         }
                                         {
-                                            (project.tech.react) && <i className="fa-brands fa-react fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
+                                            (project.tech.react) && <i className="fa-brands fa-react fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
                                         }
                                         {
-                                            (project.tech.css) && <i className="fa-brands fa-css3 fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
+                                            (project.tech.css) && <i className="fa-brands fa-css3 fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
                                         }
                                         {
-                                            (project.tech.html) && <i className="fa-brands fa-html5 fa-xl me-3" style={{ color: 'rgb(108, 117, 125)'}}></i>
+                                            (project.tech.html) && <i className="fa-brands fa-html5 fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
                                         }
                                     </div>
                                     <a href={ project.ref } target='_blanck' >
@@ -93,6 +96,7 @@ export const SeccionPortafolio = () => {
                                 </div>
                             </div>
                         </div>
+                        </Fade>
                     </div>
                     ))
                 }

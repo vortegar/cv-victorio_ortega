@@ -127,35 +127,20 @@ export const habilitysData = [
         description: 'Desarrollo de proyectos',
         icons: 'fa-solid fa-chart-gantt fa-2x',
     },
-    {
-        title: 'Trello',
-        description: 'Trello',
-        icons: 'fa-brands fa-trello fa-2x'
-    },
+    // {
+    //     title: 'Trello',
+    //     description: 'Trello',
+    //     icons: 'fa-brands fa-trello fa-2x'
+    // },
 
 ]
 
 export const projectsData = [
     {
-        title: 'Ecommerce',
-        description: 'Ecommerce con conexión a base de Datos',
-        url: 'https://github.com/vortegar/bc_56936-proyecto_integrador-etapa_3-victorio_ortega',
-        img: './img/web.jpg',
-        alt: 'Ecommerce web',
-        ref: 'https://github.com/vortegar/bc_56936-proyecto_integrador-etapa_3-victorio_ortega',
-        tech:{
-            javascript:true,
-            sass:true,
-            nodeJs:true,
-            html:true
-        }
-    },
-    
-    {
         title: 'Ecommerce guitarras',
         description: `Pagina web venta de guitarras`,
         url: 'https://github.com/vortegar/GuitarLA-Page---Bootstrap---Sass',
-        img: './img/web2.jpg',
+        img: './img/guitarra-web.jpg',
         alt: 'Ecommerce guitarras',
         ref: 'https://github.com/vortegar/GuitarLA-Page---Bootstrap---Sass',
         tech:{
@@ -166,10 +151,39 @@ export const projectsData = [
         }
     },
     {
+        title: 'Podcast Web',
+        description: `Pagina web servicios de podcast.`,
+        url: 'https://clinquant-torte-363774.netlify.app/',
+        img: './img/podcast-web.jpg',
+        alt: 'Podcast web',
+        ref: 'https://clinquant-torte-363774.netlify.app/',
+        tech:{
+            html:true,
+            bootstrap:true,
+            sass:true,
+        }        
+    },
+    {
+        title: 'Ecommerce',
+        description: 'Ecommerce con conexión a base de Datos',
+        url: 'https://github.com/vortegar/bc_56936-proyecto_integrador-etapa_3-victorio_ortega',
+        img: './img/ecomerce-web.jpg',
+        alt: 'Ecommerce web',
+        ref: 'https://github.com/vortegar/bc_56936-proyecto_integrador-etapa_3-victorio_ortega',
+        tech:{
+            javascript:true,
+            sass:true,
+            nodeJs:true,
+            html:true
+        }
+    },
+    
+
+    {
         title: 'App Buscador de Gif',
         description: `Buscador de Gif conectada con API.`,
         url: 'https://gif-expert-vor.netlify.app/',
-        img: './img/web3.jpg',
+        img: './img/buscador-gif-web.jpg',
         alt: 'Buscador Gif',
         ref: 'https://gif-expert-vor.netlify.app/',
         tech:{
@@ -180,25 +194,26 @@ export const projectsData = [
         }        
     },
     {
-        title: 'Podcast Web',
-        description: `Pagina web servicios de podcast.`,
-        url: 'https://clinquant-torte-363774.netlify.app/',
-        img: './img/web.jpg',
-        alt: 'Podcast web',
-        ref: 'https://clinquant-torte-363774.netlify.app/',
+        title: 'Citas veterinarias',
+        description: `Sistema de citas para veterinaria.`,
+        url: 'https://chic-lebkuchen-10ce68.netlify.app/',
+        img: './img/veterinaria-web.jpg',
+        alt: 'Citas veterinaria',
+        ref: 'https://chic-lebkuchen-10ce68.netlify.app/',
         tech:{
-            html:true,
-            bootstrap:true,
+            react:true,
+            javascript:true,
             sass:true,
         }        
     },
+
     {
         title: 'Gestor de gastos',
         description: `Aplicación interactiva para llevar gastos.`,
-        url: 'https://famous-bavarois-49578d.netlify.app/',
-        img: './img/web2.jpg',
+        url: 'https://fastidious-blini-a6f91a.netlify.app/',
+        img: './img/gestor-gastos-web.jpg',
         alt: 'Calculadora',
-        ref: 'https://chic-lebkuchen-10ce68.netlify.app/',
+        ref: 'https://fastidious-blini-a6f91a.netlify.app/',
         tech:{
             react:true,
             css:true,
@@ -209,7 +224,7 @@ export const projectsData = [
         title: 'App Blackjack',
         description: `Juego clasico e interactivo de Blackjack.`,
         url: 'https://blackjackapp-vite.netlify.app',
-        img: './img/web3.jpg',
+        img: './img/black-jack-web.jpg',
         alt: 'Blackjack App',
         ref: 'https://blackjackapp-vite.netlify.app',
         tech:{
@@ -218,24 +233,12 @@ export const projectsData = [
             css:true,
         }        
     },
-    {
-        title: 'Citas veterinarias',
-        description: `Sistema de citas para veterinaria.`,
-        url: 'https://chic-lebkuchen-10ce68.netlify.app/',
-        img: './img/web.jpg',
-        alt: 'Citas veterinaria',
-        ref: 'https://chic-lebkuchen-10ce68.netlify.app/',
-        tech:{
-            react:true,
-            javascript:true,
-            sass:true,
-        }        
-    },
+
     {
         title: 'Journal App',
         description: `App para almacenar pendientes en un calendario.`,
         url: 'https://github.com/vortegar/Journal-App',
-        img: './img/web2.jpg',
+        img: './img/journal-web.jpg',
         alt: 'Jouranl app',
         ref: 'https://github.com/vortegar/Journal-App',
         tech:{
@@ -249,7 +252,7 @@ export const projectsData = [
         title: 'Heroes SPA',
         description: `Buscador de Heroes conectada a una API local.`,
         url: 'https://github.com/vortegar/Heroes-spa',
-        img: './img/web3.jpg',
+        img: './img/heroes-spa.jpg',
         alt: 'Heroes Spa',
         ref: 'https://github.com/vortegar/Heroes-spa',
         tech:{
@@ -265,7 +268,7 @@ export const projectsData = [
         title: 'Cotizar Cripto',
         description: `Cotizador de criptomonedas conectada a una API.`,
         url: 'https://luxury-elf-6360d3.netlify.app',
-        img: './img/web.jpg',
+        img: './img/cotizador-cripto-web.jpg',
         alt: 'Cotizador Cripto',
         ref: 'https://luxury-elf-6360d3.netlify.app/',
         tech:{

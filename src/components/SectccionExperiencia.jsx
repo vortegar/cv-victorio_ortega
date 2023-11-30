@@ -60,12 +60,12 @@ export const SeccionSobreExperiencia = () => {
                         <SwiperSlide key={index}>
                           <div className="card mb-5 mx-auto sobre_experiencia-card">
                             <div className="card-header">
-                              <h5>{data.subtitle}</h5>
-                              <p>{data.date}</p>
+                              <h5 className='text-light'>{data.subtitle}</h5>
+                              <p className='text-light'>{data.date}</p>
                             </div>
                             <div className="card-body">
-                              <h5 className="card-title text-secondary">{data.title}</h5>
-                              <p className="card-text text-secondary">{data.description}</p>
+                              <h5 className="card-title text-light mt-2 ps-2 pe-2">{data.title}</h5>
+                              <p className="card-text sobre_experiencia-inf mt-4 ps-2 pe-2">{data.description}</p>
                             </div>
                           </div>
                         </SwiperSlide>
