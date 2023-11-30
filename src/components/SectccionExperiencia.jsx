@@ -15,7 +15,7 @@ export const SeccionSobreExperiencia = () => {
               <div className='row'>
                   <div className='col-12'>
                       <h2 className='fw-bold text-center pt-5 pb-5 d-flex justify-content-center sobre_experiencia_text'>
-                        E<p className='text-secondary'>xperiencia</p><img src="../../public/img/experiencia.png" alt="Experiencia" className="img-custom-size"/>
+                        E<p className='text-secondary'>xperiencia</p><img src="./img/experiencia.png" alt="Experiencia" className="img-custom-size"/>
                       </h2>
                   </div>
                   <div className='mb-2 px-0 col-12 d-flex justify-content-center align-items-center experiencia_contenido'>

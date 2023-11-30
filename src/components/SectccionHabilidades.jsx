@@ -11,7 +11,7 @@ export const SeccionSobreHabilidades = () => {
                 <div className='row justify-content-center'>
                     <div className='col-12 text-start fs-5'>
                         <h2 className='fw-bold text-center pt-5 text-secondary d-flex justify-content-center sobre_educacion_text'>
-                            <p className='text-tittle-nombre-color'>H</p>abilidades<img src="../../public/img/habilidades.png" alt="Sobre mi" className="img-custom-size"/>
+                            <p className='text-tittle-nombre-color'>H</p>abilidades<img src="./img/habilidades.png" alt="Sobre mi" className="img-custom-size"/>
                         </h2>
                         <p className='text-center text-secondary'> Tengo conocimientos en las siguientes tecnologías. </p>
                         <div className='d-flex flex-wrap mb-5'>

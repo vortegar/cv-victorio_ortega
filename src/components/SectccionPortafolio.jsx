@@ -38,7 +38,7 @@ export const SeccionPortafolio = () => {
         <div className="row sobre_proyectos">
             <div className="col-12">
                 <h2 className='fw-bold text-center pt-5 text-secondary d-flex justify-content-center sobre_educacion_text'>
-                    <p className='text-tittle-nombre-color'>P</p>ortafolio<img src="../../public/img/portafolio.png" alt="Portafolio" className="img-custom-size"/>
+                    <p className='text-tittle-nombre-color'>P</p>ortafolio<img src="./img/portafolio.png" alt="Portafolio" className="img-custom-size"/>
                 </h2>
             </div>
             <div className='col-12 d-flex flex-wrap gap-3 justify-content-center'>

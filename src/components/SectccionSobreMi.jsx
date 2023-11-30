@@ -20,7 +20,7 @@ export const SeccionSobreMi = () => {
               </div>
               <div className="col-6 mt-5">
                 <div className="mt-5">
-                  <img src="../../public/img/sobre-mi.jpg" alt="sobre mi" className="sobre_mi_img" />
+                  <img src="./img/sobre-mi.jpg" alt="sobre mi" className="sobre_mi_img" />
                 </div>
               </div>
           </div>
