@@ -5,7 +5,7 @@ export const SeccionSobreMi = () => {
     <Fade>
       <section className="container text-center sobre_mi">
           <div className='row'>
-              <div className='col-6 fs-5 mt-5'>
+              <div className='col-lg-6 fs-5 mt-5'>
                 <div className="sobre_mi_container mt-5 d-flex justify-content-center">
                   <h2 className='fw-bold text-start sobre_mi_text d-flex pt-4'>
                     S<p className='text-secondary'>obre mi</p> <img src="./img/usuario.png" alt="Sobre mi" className="img-custom-size"/>
@@ -19,8 +19,8 @@ export const SeccionSobreMi = () => {
                     Poseo una actitud proactiva y un enfoque orientado a la resolución de problemas. Estoy constantemente aprendiendo y manteniéndome actualizada sobre las últimas tendencias y tecnologías en desarrollo web. Busco oportunidades desafiantes que me permitan crecer profesionalmente y contribuir al éxito de la organización a través de la excelencia técnica y la pasión por el desarrollo.
                   </p>
               </div>
-              <div className="col-6 mt-5">
-                <div className="mt-5">
+              <div className="col-lg-6 mt-lg-5">
+                <div className="mt-lg-5">
                   <img src="./img/sobre-mi.jpg" alt="sobre mi" className="sobre_mi_img" />
                 </div>
               </div>

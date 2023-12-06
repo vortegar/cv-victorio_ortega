@@ -36,25 +36,26 @@ export const SeccionSobreExperiencia = () => {
                           slidesPerView:1,
                         },
                         "@0.50":{
-                          slidesPerView:1.5,
+                          slidesPerView:1,
                         },
                         "@1.00":{
                           slidesPerView:2,
                         },
                         "@1.25":{
                           slidesPerView:3,
+
                         },
                         "@1.50":{
                           slidesPerView:4,
+
                         },
                         "@1.75":{
                           slidesPerView:4,
                         },
 
-
                       }}
                       onSwiper={(swiper) => console.log(swiper)}
-                      onSlideChange={() => console.log('slide change')}
+                      // onSlideChange={() => console.log('slide change')}
                     >
                       {experienciaData.map((data,index)=>(
                         <SwiperSlide key={index}>

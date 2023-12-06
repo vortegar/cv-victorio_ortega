@@ -27,7 +27,7 @@ function Curriculum() {
                 <div className='row my-5'>
                     <div className=' col-12 d-lg-flex text-center name_cv_text d-block justify-content-center mt-lg-5'> 
                         <p className='text-light'>Victorio</p>
-                        <p className='text-light ps-lg-4'>Ortega.</p>
+                        <p className='text-light ps-lg-4'>Ortega</p>
                     </div>
                     <div className='mb-2 mt-3'>
                         <div className="h1-first d-flex justify-content-center">

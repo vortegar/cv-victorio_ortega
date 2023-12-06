@@ -9,15 +9,15 @@ export const SeccionSobreHabilidades = () => {
         <section className="sobre_habilidades_contenedor" id="Habilidades">
             <div className="container text-center sobre_habilidades">
                 <div className='row justify-content-center'>
-                    <div className='col-12 text-start fs-5'>
+                    <div className='col-12 text-start fs-5 '>
                         <h2 className='fw-bold text-center pt-5 text-secondary d-flex justify-content-center sobre_educacion_text'>
                             <p className='text-tittle-nombre-color'>H</p>abilidades<img src="./img/habilidades.png" alt="Sobre mi" className="img-custom-size"/>
                         </h2>
-                        <p className='text-center text-secondary'> Tengo conocimientos en las siguientes tecnologías. </p>
+                        <p className='text-center text-secondary'> Poseo conocimientos en las siguientes tecnologías. </p>
                         <div className='d-flex flex-wrap mb-5'>
                             {
                                 habilitysData.map( hability => (
-                                    <div key={hability.name} className="col-3 text-center"><Habilidades hability={hability}/></div>
+                                    <div key={hability.name} className=" col-4 col-lg-3 text-center"><Habilidades hability={hability}/></div>
                                 ))
                             }
                         </div>
