@@ -47,7 +47,7 @@ export const educationData = [
     {
         course: 'Bootcamp Full Stack Engineer.',
         institute: 'Educación IT.',
-        date: 'OCtubre 2022'
+        date: 'Octubre 2022'
     },
     {
         course: 'Course JavaScripts.',
