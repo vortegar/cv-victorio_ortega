@@ -1,8 +1,7 @@
-import { List } from "./ListComponent"
+import { List } from "./components/ListComponent"
 
 export const Navbar = () => {
   return (
-
         <div className="container fixed-top navbar-color">
             <div className="row">
                 <div className="col-12">

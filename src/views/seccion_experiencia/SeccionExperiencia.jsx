@@ -1,15 +1,14 @@
 import { Pagination, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { experienciaData } from "../data/cvData"
+import { experienciaData } from "../../data/cvData"
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Fade } from 'react-awesome-reveal';
 
 export const SeccionSobreExperiencia = () => {
 
   return (    
-    <Fade>
+    <>
       <section className="sobre_experiencia_contenedor" id="Experiencia">
           <div className="container text-center sobre_experiencia">
               <div className='row'>
@@ -77,7 +76,6 @@ export const SeccionSobreExperiencia = () => {
               </div>
           </div>
       </section>
-    </Fade> 
-
+    </> 
   )
 }

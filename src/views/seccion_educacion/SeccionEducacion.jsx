@@ -1,10 +1,9 @@
-import { Fade } from "react-awesome-reveal"
-import { educationData } from "../data/cvData"
-import { Education } from "./Education"
+import { educationData } from "../../data/cvData"
+import { Education } from "./components/Education"
 
 export const SeccionSobreEducacion = () => {
   return (    
-    <Fade>
+    <>
         <section className="sobre_educacion_contenedor" id="Educacion">
             <div className="container text sobre_educacion">
                 <div className='row'>
@@ -23,7 +22,7 @@ export const SeccionSobreEducacion = () => {
                 </div>
             </div>
         </section>
-    </Fade>
+    </>
 
   )
 }

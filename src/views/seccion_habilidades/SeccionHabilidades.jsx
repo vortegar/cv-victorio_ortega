@@ -1,11 +1,10 @@
-import { Fade } from "react-awesome-reveal"
-import { habilitysData } from "../data/cvData"
-import { Habilidades } from "./Habilidades"
+import { habilitysData } from "../../data/cvData"
+import { Habilidades } from "./components/Habilidades"
 
 export const SeccionSobreHabilidades = () => {
 
   return (
-    <Fade>
+    <>
         <section className="sobre_habilidades_contenedor" id="Habilidades">
             <div className="container text-center sobre_habilidades">
                 <div className='row justify-content-center'>
@@ -17,7 +16,9 @@ export const SeccionSobreHabilidades = () => {
                         <div className='d-flex flex-wrap mb-5'>
                             {
                                 habilitysData.map( hability => (
-                                    <div key={hability.name} className=" col-4 col-lg-3 text-center"><Habilidades hability={hability}/></div>
+                                    <div key={hability.name} className=" col-4 col-lg-3 text-center">
+                                        <Habilidades hability={hability}/>
+                                    </div>
                                 ))
                             }
                         </div>
@@ -25,7 +26,6 @@ export const SeccionSobreHabilidades = () => {
                 </div>
             </div>
         </section>
-    </Fade>
-
+    </>
   )
 }

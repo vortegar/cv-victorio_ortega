@@ -1,8 +1,6 @@
-import { Fade } from "react-awesome-reveal"
 
 export const SeccionSobreMi = () => {
   return (
-    <Fade>
       <section className="container text-center sobre_mi">
           <div className='row'>
               <div className='col-lg-6 fs-5 mt-5'>
@@ -29,7 +27,5 @@ export const SeccionSobreMi = () => {
               </div>
           </div>
       </section>
-    </Fade>
-
   )
 }

@@ -28,12 +28,14 @@ export const Habilidades = ({hability}) => {
           return hability.progress;
         }
       });
-    }, 20); 
+    }, 10); 
   };
 
   const handleClose = () => {
     setOpen(false);
-    setProgressValue(0);
+    setTimeout(() => {
+      setProgressValue(0);
+    }, 1000);
   }
   
   return (

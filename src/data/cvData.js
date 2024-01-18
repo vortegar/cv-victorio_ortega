@@ -328,9 +328,15 @@ export const experienciaData = [
 
     
     {
+        title: 'Integration Analyst',
+        subtitle:'Buk',
+        date: 'Enero 2024 - Actualidad',
+        description: `Asegurar la interoperabilidad y la integración eficiente de diferentes aplicaciones dentro de un entorno más amplio, garantizando que trabajen de manera conjunta y efectiva para cumplir con los objetivos.`
+    },
+    {
         title: 'Desarrollador Front end',
         subtitle:'Digitech Solutions',
-        date: 'Mayo 2023 - Actualidad',
+        date: 'Mayo 2023 - Enero 2024',
         description: `Desarrollo y participación activamente en la planificación y el diseño de nuevos proyectos, colaborando con el equipo de diseño y el equipo de Back-end para lograr resultados integrales y cohesivos.`
     },
 

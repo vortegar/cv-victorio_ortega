@@ -1,4 +1,4 @@
-import { Icons } from "./Icons"
+import { Icons } from "../../icons/Icons"
 
 export const Footer = () => {
   return (

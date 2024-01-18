@@ -67,6 +67,7 @@ body{
 .sobre_mi{
   height: auto;
   padding-top: 50px;
+  margin-bottom: 400px;
 }
 
 .sobre_habilidades_contenedor{
@@ -93,7 +94,12 @@ body{
 
 .sobre_experiencia_contenedor{
   height: auto;
-  padding-top: 250px;
+  margin-top: 250px;
+}
+
+.sobre_mi_nombre_contenedor{
+  height: auto;
+  margin-bottom: 250px;
 }
 
 .sobre_footer{
@@ -243,8 +249,6 @@ body{
   border-radius: 1rem;
   filter: hue-rotate(180deg) blur(5px); 
 }
-
-
 
 .sobre_educacion{
   border-radius: 2rem;
