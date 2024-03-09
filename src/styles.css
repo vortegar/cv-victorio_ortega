@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;600&family=Raleway:wght@200;400;500;600&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -57,12 +58,12 @@ body{
   width: 310px;
 }
 
-.name_cv{
+/* .name_cv{
   margin-top: 80px;
   height: 400px;
   padding-top: 50px;
   border-radius: 10px;
-}
+} */
 
 .sobre_mi{
   height: auto;
@@ -87,7 +88,6 @@ body{
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-
 .educacion_contenido i{
   color: var(--bs-tertiary-color);
 }
@@ -106,10 +106,10 @@ body{
   margin-top: 9rem;
 }
 
-.name_cv_text{
+/* .name_cv_text{
   font-size: 6.8rem;
   line-height: 80px;
-}
+} */
 
 .fixed-top{
   position: sticky;
@@ -121,44 +121,6 @@ body{
   padding-top: 200px;
 }
 
-/*Texto dinamico*/
-@keyframes typing {
-  0.0000% , 62.5005% { content: ""; }
-  1.7857% , 60.7148% { content: "F"; }
-  3.5714% , 58.9291% { content: "Fr"; }
-  5.3571% , 57.1434% { content: "Fron"; }
-  7.1428% , 55.3577% { content: "Front"; }
-  8.9285% , 53.572% { content: "Front e"; }
-  10.7142%, 51.7863% { content: "Front en"; }
-  12.4999%, 50.0006% { content: "Front end"; }
-  14.2856%, 48.2149% { content: "Front end D"; }
-  16.0713%, 46.4292% { content: "Front end De"; }
-  17.857% ,  44.6435% { content: "Front end Dev"; }
-  19.6427%, 42.8578% { content: "Front end Deve"; }
-  21.4284%, 41.0721% { content: "Front end Devel"; }
-  23.2141%, 39.2864% { content: "Front end Develo"; }
-  25.0008%, 37.5007% { content: "Front end Develop"; }
-  26.7865%, 35.715% { content: "Front end Develope"; }
-  28.5722%, 33.9293% { content: "Front end Developer"; }
-  30.3579%, 32.1436% { content: "Front end Developer 💻"; }
-  
-  64.2862% , 97.6401% { content: ""; }
-  66.0719% , 96.4975% { content: "A"; }
-  67.8576% , 95.3549% { content: "Ar"; }
-  69.6433% , 94.2123% { content: "Arq"; }
-  71.429%  , 93.0697% { content: "Arqu"; }
-  73.2147% , 91.9271% { content: "Arqui"; }
-  75.0004% , 90.7845% { content: "Arquit"; }
-  76.7861% , 89.6419% { content: "Arquite"; }
-  78.5718% , 88.4993% { content: "Arquitec"; }
-  80.3575% , 87.3567% { content: "Arquitect"; }
-  82.1432% , 86.2141% { content: "Arquitecto"; }
-  83.9289% , 85.0715% { content: "Arquitecto  📋"; }
-  
-  0%, 100% { color: white; }
-  0%, 100% { background-color: rgb(30, 30, 30); padding: 15px; border-radius: 10px;}
-}
-
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
@@ -166,11 +128,6 @@ body{
 
 .h1-first .typewriter {
   --caret: currentcolor;
-}
-
-.h1-first .typewriter::before {
-  content: "";
-  animation: typing 13.5s infinite;
 }
 
 .h1-first .typewriter::after {
@@ -222,12 +179,9 @@ body{
   }
 }
 
-
-
 /* Sober Mi */
  .sobre_habilidades_text, .sobre_educacion_text{
   margin-top: 1rem; 
-
   font-size: 3.5rem;
   text-decoration: underline;
 }

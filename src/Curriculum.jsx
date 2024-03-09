@@ -26,15 +26,12 @@ function Curriculum() {
     <div id="Nombre"></div>
         <Fade>
             <SeccionMiNombre/>
-
-        <SeccionSobreMi/>
-        <SeccionSobreExperiencia/>
-        <SeccionSobreEducacion/>
-        <SeccionSobreHabilidades/>
-        <SeccionPortafolio/>            
-            
+            <SeccionSobreMi/>
+            <SeccionSobreExperiencia/>
+            <SeccionSobreEducacion/>
+            <SeccionSobreHabilidades/>
+            <SeccionPortafolio/>            
         </Fade>        
-        
         <Footer/>
     </>
         
