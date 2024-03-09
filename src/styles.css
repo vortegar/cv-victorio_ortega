@@ -1,6 +1,12 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;600&family=Raleway:wght@200;400;500;600&display=swap');
 
+:root {
+  --color-azul: #03abf2;
+  --color-blanco: rgb(255, 255, 255);
+  --color-gris-oscuro: #6c757d;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -58,19 +64,6 @@ body{
   width: 310px;
 }
 
-/* .name_cv{
-  margin-top: 80px;
-  height: 400px;
-  padding-top: 50px;
-  border-radius: 10px;
-} */
-
-.sobre_mi{
-  height: auto;
-  padding-top: 50px;
-  margin-bottom: 400px;
-}
-
 .sobre_habilidades_contenedor{
   height: auto;
   padding-top: 250px;
@@ -81,13 +74,6 @@ body{
   padding-top: 250px;
 }
 
-.sobre_mi_img{
-  height: 500px;
-  margin-top: 150px;
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-}
-
 .educacion_contenido i{
   color: var(--bs-tertiary-color);
 }
@@ -95,11 +81,6 @@ body{
 .sobre_experiencia_contenedor{
   height: auto;
   margin-top: 250px;
-}
-
-.sobre_mi_nombre_contenedor{
-  height: auto;
-  margin-bottom: 250px;
 }
 
 .sobre_footer{
@@ -198,12 +179,6 @@ body{
   background: linear-gradient(123deg, rgba(30,30,30,1) 0%, rgba(35,35,35,1) 50%, rgba(40,40,40,1) 100%);
 }
 
-.img_sobre_mi {
-  height: 30rem;
-  border-radius: 1rem;
-  filter: hue-rotate(180deg) blur(5px); 
-}
-
 .sobre_educacion{
   border-radius: 2rem;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
@@ -262,16 +237,13 @@ body{
 
 }
 
-.sobre_experiencia_text, .sobre_mi_text{
+.sobre_experiencia_text{
   color: #aebcc9;
   font-size: 3.5rem;
   text-decoration: underline;
 }
 
-.sobre_mi_container{
-  background-color: rgb(30, 30, 30) ;
-  border-radius: 20px;
-}
+
 
 .experiencia_contenido .card{
   max-width: 18rem;
@@ -307,22 +279,10 @@ body{
 }
 .sobre_proyectos .card-img-top{
   filter: blur(0.6px);
-  /* height: 20rem; */
   width: 20rem;
 }
 
-.hover_link {
-  color: #909294 !important;
-  transition: color 0.3s ease, border-bottom 0.3s ease; 
-  border-bottom: 2px solid transparent; 
-}
 
-.hover_link:hover {
-  color: white !important;
-  text-shadow: 0px 1px 1px white;
-  border-bottom: 2px solid white; 
-  animation: animateBorder 1s ease; 
-}
 
 /* Definición de la animación del borde inferior */
 @keyframes animateBorder {
@@ -401,10 +361,6 @@ body{
 /*logo*/
 
 @media (min-width: 992px) {
-  .sobre_mi{
-    height: 700px;
-    padding-top: 50px;
-  }
 
   .sobre_educacion_contenedor{
     height: 900px;
@@ -451,10 +407,7 @@ body{
 }
 
 @media (max-width: 576px){
-  .sobre_mi_img{
-    height: 400px;
-    margin-top: 50px;
-  } 
+
   .sobre_habilidades_text, .sobre_educacion_text, .sobre_experiencia_text{
     font-size: 2.5rem;
   }

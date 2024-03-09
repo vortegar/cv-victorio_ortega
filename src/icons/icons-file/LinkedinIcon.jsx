@@ -8,7 +8,7 @@ export const LinkedinIcon = ({helpertext}) => {
       height="40px"
     >
       <g
-        fill="#6c757d"
+        fill="var(--color-blanco)"
         fillRule="nonzero"
         stroke="none"
         strokeWidth="1"
@@ -28,7 +28,7 @@ export const LinkedinIcon = ({helpertext}) => {
           <style>
             {`
               path:hover {
-                fill: #ffffff;
+                fill: var(--color-azul);
               }
             `}
           </style>

@@ -6,9 +6,18 @@ export const Navbar = () => {
             <div className="row">
                 <div className="col-12">
                 <nav className="navbar navbar-expand-lg">
-                    <button className="navbar-toggler text-white color fs-4 hover_link me-5 ms-2 my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">VO</button>
-                    <div className="collapse navbar-collapse" id="navbarNav">
+                    <button 
+                        className="navbar-toggler text-white color fs-4 me-5 ms-2 my-2" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation"
+                        >
+                            VO
+                    </button>
+                    <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul className="navbar-nav color">
                             <List title='Experiencia' href='#Experiencia'/>
                             <List title='Educación' href='#Educacion'/>

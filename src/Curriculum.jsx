@@ -1,6 +1,4 @@
-import { Icons } from './icons/Icons';
 import { Footer } from './views/seccion_footer/Footer';
-import { Navbar } from './views/seccion_navbar/Navbar';
 import { SeccionSobreMi } from './views/seccion_sobre_mi/SeccionSobreMi';
 import { SeccionSobreHabilidades } from './views/seccion_habilidades/SeccionHabilidades';
 import { SeccionSobreEducacion } from './views/seccion_educacion/SeccionEducacion';
@@ -11,6 +9,7 @@ import './styles.css'
 
 import { Fade } from 'react-awesome-reveal';
 import { SeccionMiNombre } from './views/seccion_mi_nombre/SeccionMiNombre';
+import { Navbar } from './views/seccion_navbar/Navbar';
 
 function Curriculum() {
 
@@ -22,7 +21,6 @@ function Curriculum() {
     </header>
         
     <Navbar/>
-    
     <div id="Nombre"></div>
         <Fade>
             <SeccionMiNombre/>

@@ -6,12 +6,12 @@ export const PdfIcon = ({ helpertext }) => {
       width="40px"
       height="40px"
     >
-      <g fill="#6c757d" fillRule="nonzero">
+      <g fill="var(--color-blanco)" fillRule="nonzero">
         <title>{helpertext}</title>
         <style>
             {`
               path.cls-3:hover {
-                fill: #ffffff;
+                fill: var(--color-azul);
               }
             `}
           </style>

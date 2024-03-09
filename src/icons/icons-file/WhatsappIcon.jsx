@@ -9,7 +9,7 @@ export const WhatsappIcon = ({helpertext}) => {
       height="40px"
     >
       <g
-        fill="#6c757d"
+        fill="var(--color-blanco)"
         fillRule="nonzero"
         stroke="none"
         strokeWidth="1"
@@ -29,7 +29,7 @@ export const WhatsappIcon = ({helpertext}) => {
           <style>
             {`
               path:hover {
-                fill: #ffffff;
+                fill: var(--color-azul);
               }
             `}
           </style>

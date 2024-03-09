@@ -1,5 +1,5 @@
 import { Icons } from "../../icons/Icons"
-import './styles.css'
+import './styles_mi_nombre.css'
 
 export const SeccionMiNombre = () => {
   return (
