@@ -5,8 +5,8 @@ export const WhatsappIcon = ({helpertext}) => {
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 256 256"
-      width="50px"
-      height="50px"
+      width="40px"
+      height="40px"
     >
       <g
         fill="#6c757d"

@@ -3,8 +3,8 @@ export const PdfIcon = ({ helpertext }) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
-      width="50px"
-      height="50px"
+      width="40px"
+      height="40px"
     >
       <g fill="#6c757d" fillRule="nonzero">
         <title>{helpertext}</title>

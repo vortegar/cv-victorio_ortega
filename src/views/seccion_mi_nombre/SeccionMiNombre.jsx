@@ -10,7 +10,7 @@ export const SeccionMiNombre = () => {
                     <p className='text-light'>Victorio</p>
                     <p className='text-light ps-lg-4'>Ortega</p>
                 </div>
-                <div className='mb-5 mt-5'>
+                <div className='mt-3'>
                     <div className="h1-first mt-5 d-flex justify-content-center">
                         <span className="typewriter fs-5 text-secondary"></span>
                     </div>
