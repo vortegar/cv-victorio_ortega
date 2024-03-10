@@ -2,7 +2,7 @@ import './styles_sobre_mi.css'
 
 export const SeccionSobreMi = () => {
   return (
-      <section className="container text-center sobre_mi">
+      <section className="container text-center sobre_mi px-0">
           <div className="sobre_mi_container mt-5 d-flex justify-content-center">
             <h2 className='fw-bold text-start sobre_mi_text d-flex pt-4'>
               S

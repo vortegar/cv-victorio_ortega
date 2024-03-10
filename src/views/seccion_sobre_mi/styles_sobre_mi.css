@@ -17,7 +17,7 @@
 }
 
 .sobre_mi_container{
-    background-color: rgb(30, 30, 30) ;
+    background-color: var(--color-gris) ;
     border-radius: 20px;
 }
 
@@ -28,13 +28,13 @@
 }
 
 .sobre_mi_text{
-    color: var(--color-blanco);
+    color: var(--color-azul);
     font-size: 3.5rem;
     text-decoration: underline;
 }  
 
 .sobre_mi_text_title{
-    color: var(--color-gris-oscuro)
+    color: var(--color-blanco)
 }
 
 .sobre_mi_text_descp{

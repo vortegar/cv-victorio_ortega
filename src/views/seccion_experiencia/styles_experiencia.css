@@ -1,0 +1,63 @@
+.sobre_experiencia_contenedor{
+    height: auto;
+    margin-top: 250px;
+  }
+
+  .sobre_experiencia{
+    background:var(--color-gris);
+  }
+
+  .sobre_experiencia_text{
+    color: var(--color-azul);
+    font-size: 3.5rem;
+    text-decoration: underline;
+  }
+
+  .sobre_experiencia_text-title {
+    color: var(--color-blanco);
+  }
+
+  .sobre_experiencia-card{
+    border-color: var(--color-gris) !important;
+  }
+
+  .sobre_experiencia-card-header{
+    background-color: var(--color-gris);
+    border: solid 1px  var(--color-blanco);
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .sobre_experiencia-inf{
+    color:var(--color-gris-oscuro);  
+  }
+  
+  .sobre_experiencia-card-subtitle{
+    color: var(--color-azul);
+    text-decoration: underline;
+  }
+
+  .sobre_experiencia-company{
+    color: var(--color-blanco);
+    font-size: 18px;
+  }
+
+  .sobre_experiencia-card-date{
+    font-size: 14px;
+    color: var(--color-blanco);
+  }
+
+  @media (min-width: 992px) {  
+    .sobre_experiencia{
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 30px;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);  
+    }
+  }
+
+  @media (max-width: 576px){
+  .sobre_experiencia_text{
+      font-size: 2.5rem;
+    }
+  }

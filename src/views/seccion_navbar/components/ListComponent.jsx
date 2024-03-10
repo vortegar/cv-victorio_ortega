@@ -1,4 +1,4 @@
-import './styles_navbar.css'
+import '../styles_navbar.css'
 export const List = ({ title, href }) => {
   return (
     <li className="nav-item ms-5">

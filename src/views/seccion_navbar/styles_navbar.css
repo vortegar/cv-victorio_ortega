@@ -1,3 +1,16 @@
+.navbar-color{
+  background:var(--color-gris);
+  border-radius: 0 0 10px 10px;
+}
+
+.navbar{
+  --bs-navbar-toggler-focus-width: 0rem;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
 .hover_link {
     color: var(--color-blanco) !important;
     border-bottom: 2px solid transparent; 
@@ -8,4 +21,5 @@
     text-shadow: 0px 1px 1px var(--color-azul);
     border-bottom: 2px solid var(--color-azul); 
   }
+  
   
