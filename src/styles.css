@@ -26,38 +26,19 @@ body{
 }
 
 
-.text-nombre-educacion{
+/* .text-nombre-educacion{
   color:rgb(174, 188, 201);
   font-weight: 900;
-}
+} */
 
-.color-boton{
-  background-color: rgb(30, 30, 30);
-  width: 250px;
-}
-
-.color-boton:hover{
-  background-color: rgba(40, 40, 40, 0.318);
-  color: white !important;
-}
-
-.tamaño-card-portafolio{
+/* .tamanio-card-portafolio{
   width: 310px;
-}
+} */
 
-.sobre_habilidades_contenedor{
-  height: auto;
-  padding-top: 250px;
-}
-
-.sobre_educacion_contenedor{
-  height: auto;
-  padding-top: 250px;
-}
-
+/* 
 .educacion_contenido i{
   color: var(--bs-tertiary-color);
-}
+} */
 
 .sobre_footer{
   margin-top: 9rem;
@@ -73,10 +54,6 @@ body{
   padding: 10px 20px;
 }
 
-.sobre_proyectos-contenedor{
-  height: auto;
-  padding-top: 200px;
-}
 
 @keyframes blink {
   0%, 100% { opacity: 1; }
@@ -137,7 +114,7 @@ body{
 }
 
 /* Sober Mi */
- .sobre_habilidades_text, .sobre_educacion_text{
+ .sobre_habilidades_text{
   margin-top: 1rem; 
   font-size: 3.5rem;
   text-decoration: underline;
@@ -147,29 +124,11 @@ body{
   font-size: 2rem;
 }
 
-.sobre_habilidades{
-  margin-top: 10rem; 
-  border-radius: 2rem;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-  background: rgb(0,40,40);
-  background: linear-gradient(123deg, rgba(30,30,30,1) 0%, rgba(35,35,35,1) 50%, rgba(40,40,40,1) 100%);
-}
 
-.sobre_educacion{
-  border-radius: 2rem;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-  background: rgb(0,40,40);
-  background: linear-gradient(123deg, rgba(30,30,30,1) 0%, rgba(35,35,35,1) 50%, rgba(40,40,40,1) 100%);
 
-}
-
-.project_description{
-  font-size: 14px;
-}
-
-.text-tittle-nombre-color{
+/* .text-tittle-nombre-color{
   color: rgb(174, 188, 201)
-}
+} */
 
 /* Cambiar el color de la barra de desplazamiento */
 ::-webkit-scrollbar {
@@ -227,13 +186,13 @@ body{
   background: white;
 }
 
-.sobre_proyectos .card {
+/* .sobre_proyectos .card {
   border-radius: 0 0 0.5rem 0.5rem;
 }
 .sobre_proyectos .card-img-top{
   filter: blur(0.6px);
   width: 20rem;
-}
+} */
 
 
 
@@ -252,21 +211,9 @@ body{
   border: solid 1px #d2d2d2;
   border-bottom: none;
   border-radius: 0.5rem 0.5rem 0 0;
-
 }
 
-.img_project{
-  filter: blur(0px); 
-  transform:scale(1.3);
-  filter: saturate(70%);
-  transition: transform 0.3s ease;
-}
 
-.img_project_remove{
-  transform:scale(1);
-  /* filter: grayscale(100%) !important; */
-  transition: transform 0.3s ease;
-}
 
 /*body*/
 .menu{
@@ -313,13 +260,6 @@ body{
 }
 /*logo*/
 
-@media (min-width: 992px) {
-
-  .sobre_educacion_contenedor{
-    height: 900px;
-  }
-}
-
 .img-custom-size {
   width: 50px;
   height: 50px;
@@ -351,12 +291,8 @@ body{
 
 @media (max-width: 576px){
 
-  .sobre_habilidades_text, .sobre_educacion_text, .sobre_experiencia_text{
+  .sobre_habilidades_text, .sobre_experiencia_text{
     font-size: 2.5rem;
-  }
-
-  .sobre_educacion_contenedor{
-    margin: auto 20px;
   }
 
   .sobre_habilidades_contenedor{

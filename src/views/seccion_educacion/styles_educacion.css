@@ -1,0 +1,49 @@
+.sobre_educacion_contenedor{
+    height: auto;
+    padding-top: 250px;
+}
+
+.sobre_educacion{
+    border-radius: 2rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    background:var(--color-gris) !important;
+    background: linear-gradient(123deg, rgba(30,30,30,1) 0%, rgba(35,35,35,1) 50%, rgba(40,40,40,1) 100%);  
+}
+
+.sobre_educacion_text{
+    color: var(--color-azul);
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+
+/* .sobre_educacion_text{
+    margin-top: 1rem; 
+    font-size: 3.5rem;
+    text-decoration: underline;
+} */
+
+/* aqui */
+.sobre_educacion_text-title{
+    color: var(--color-blanco)
+}
+
+@media (min-width: 992px) {
+    .sobre_educacion_contenedor{
+        height: 900px;
+    }
+}
+
+@media (max-width: 576px){
+    .sobre_educacion_text{
+        font-size: 2.5rem;
+    }
+}
+
+.educacion_contenido i{
+    color: var(--color-azul) !important;
+  }
+
+.text-nombre-educacion{
+    color:var(--color-blanco);
+    font-weight: 900;
+}

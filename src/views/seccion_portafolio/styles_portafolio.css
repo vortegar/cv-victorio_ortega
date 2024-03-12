@@ -1,0 +1,72 @@
+.sobre_proyectos-contenedor{
+    height: auto;
+    padding-top: 200px;
+}
+
+.sobre_proyectos .card {
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.sobre_proyectos .card-img-top{
+    filter: blur(0.6px);
+    width: 20rem;
+}
+.sobre_portafolio_text{
+    color: var(--color-azul);
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+
+.sobre_portafolio_text_title{
+    color: var(--color-blanco)
+}
+
+.tamanio-card-portafolio{
+  width: 310px;
+} 
+
+.contenedor_project{
+    overflow:hidden;
+    border: solid 1px var(--color-blanco);
+    border-bottom: none;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card_custom{
+    background-color: var(--color-gris) !important;
+}
+.img_project{
+    filter: blur(0px); 
+    transform:scale(1.3);
+    filter: saturate(70%);
+    transition: transform 0.3s ease;
+}
+.img_project_remove{
+    transform:scale(1);
+    /* filter: grayscale(100%) !important; */
+    transition: transform 0.3s ease;
+}
+
+.color-boton{
+    background-color: var(--color-blanco);
+    color: var(--color-azul) !important;
+    width: 250px;
+}
+
+.color-boton:hover{
+    background-color: var(--color-azul);
+    color: var(--color-blanco) !important;
+}  
+
+.project_description{
+    font-size: 14px;
+}
+
+.icon_color{
+    color: var(--color-blanco);
+}
+
+.text_color{
+    color: var(--color-azul);
+    text-decoration: underline;
+}

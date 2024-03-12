@@ -1,5 +1,6 @@
 import { habilitysData } from "../../data/cvData"
 import { Habilidades } from "./components/Habilidades"
+import './styles_habilidades.css'
 
 export const SeccionSobreHabilidades = () => {
 
@@ -9,10 +10,10 @@ export const SeccionSobreHabilidades = () => {
             <div className="container text-center sobre_habilidades">
                 <div className='row justify-content-center'>
                     <div className='col-12 text-start fs-5 '>
-                        <h2 className='fw-bold text-center pt-5 text-secondary d-flex justify-content-center sobre_educacion_text'>
-                            <p className='text-tittle-nombre-color'>H</p>abilidades<img src="./img/habilidades.png" alt="Sobre mi" className="img-custom-size"/>
+                        <h2 className='fw-bold text-center pt-5 d-flex justify-content-center sobre_habilidades_text'>
+                            H<p className='sobre_habilidades_text_title'>abilidades</p><img src="./img/habilidades.png" alt="Sobre mi" className="img-custom-size"/>
                         </h2>
-                        <p className='text-center text-secondary'> Poseo conocimientos en las siguientes tecnologías. </p>
+                        <p className='text-center sobre_habilidades_text_title'> Poseo conocimientos en las siguientes tecnologías. </p>
                         <div className='d-flex flex-wrap mb-5'>
                             {
                                 habilitysData.map( hability => (

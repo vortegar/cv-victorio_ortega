@@ -13,9 +13,13 @@
     text-decoration: underline;
   }
 
-  .sobre_experiencia_text-title {
-    color: var(--color-blanco);
-  }
+  .sobre_mi_text_title{
+    color: var(--color-blanco)
+}
+
+.sobre_experiencia_text-title{
+  color: var(--color-blanco);
+}
 
   .sobre_experiencia-card{
     border-color: var(--color-gris) !important;
@@ -28,7 +32,7 @@
   }
 
   .sobre_experiencia-inf{
-    color:var(--color-gris-oscuro);  
+    color:var(--color-blanco);  
   }
   
   .sobre_experiencia-card-subtitle{
@@ -37,7 +41,7 @@
   }
 
   .sobre_experiencia-company{
-    color: var(--color-blanco);
+    color: var(--color-azul);
     font-size: 18px;
   }
 

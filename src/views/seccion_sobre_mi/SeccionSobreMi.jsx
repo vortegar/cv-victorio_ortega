@@ -5,8 +5,7 @@ export const SeccionSobreMi = () => {
       <section className="container text-center sobre_mi px-0">
           <div className="sobre_mi_container mt-5 d-flex justify-content-center">
             <h2 className='fw-bold text-start sobre_mi_text d-flex pt-4'>
-              S
-              <p className='sobre_mi_text_title'>obre mi</p> 
+              S<p className='sobre_mi_text_title'>obre mi</p> 
               <img src="./img/usuario.png" alt="Sobre mi" className="img-custom-size"/>
             </h2>
           </div>

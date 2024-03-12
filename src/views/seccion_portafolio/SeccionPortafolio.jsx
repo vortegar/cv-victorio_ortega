@@ -1,19 +1,17 @@
-import { useState } from "react";
 import { projectsData } from "../../data/cvData"
 import { Fade } from "react-awesome-reveal";
 import { Proyecto } from "./components/Proyecto";
+import './styles_portafolio.css'
 
 export const SeccionPortafolio = () => {
-
-    const [selectImg, setSelectImg] = useState('');
 
   return (   
      <>
         <section className='container sobre_proyectos-contenedor' id="Proyectos">
         <div className="row sobre_proyectos">
             <div className="col-12">
-                <h2 className='fw-bold text-center pt-5 text-secondary d-flex justify-content-center sobre_educacion_text'>
-                    <p className='text-tittle-nombre-color'>P</p>ortafolio<img src="./img/portafolio.png" alt="Portafolio" className="img-custom-size"/>
+                <h2 className='fw-bold text-center pt-5 d-flex justify-content-center sobre_portafolio_text'>
+                    P<p className='sobre_portafolio_text_title'>ortafolio</p><img src="./img/portafolio.png" alt="Portafolio" className="img-custom-size"/>
                 </h2>
             </div>
             <div className='col-12 d-flex flex-wrap gap-3 justify-content-center'>

@@ -34,7 +34,7 @@ export const Proyecto = ({ index, project }) => {
 
   return (
     <div className="col-12 col-md-6">
-        <div className="tamaño-card-portafolio my-4 mx-auto text-center">
+        <div className="tamanio-card-portafolio my-4 mx-auto text-center">
             <div className='contenedor_project'>
                 <img 
                     id={index}
@@ -42,37 +42,37 @@ export const Proyecto = ({ index, project }) => {
                     className={`card-img-top text-center}`}
                     alt={project.alt}/>
             </div>
-            <div className=" card card-body">
-                <h5 className="card-title fw-bold text-start ms-3 mt-2">{project.title}</h5>
-                <p className="card-text text-body-tertiary text-start project_descriptio mt-2 ms-3 me-3">{project.description}</p>
-                <p className="card-text text-start fw-bold mt-2 ms-3">tecnologias:</p>
+            <div className=" card card-body card_custom">
+                <h5 className="card-title fw-bold text-start ms-3 mt-2 text_color">{project.title}</h5>
+                <p className="card-text text-start text-light mt-2 ms-3 me-3">{project.description}</p>
+                <p className="card-text text-start mt-2 ms-3 text-light">tecnologias:</p>
                 <div className='mb-3 ms-3 text-start'>
                     {
-                        (project.tech.javascript) && <i className="fa-brands fa-square-js fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
+                        (project.tech.javascript) && <i className="fa-brands fa-square-js fa-xl me-3 icon_color"></i>
                     }
                     {
-                        (project.tech.bootstrap) && <i className="fa-brands fa-bootstrap fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
+                        (project.tech.bootstrap) && <i className="fa-brands fa-bootstrap fa-xl me-3 icon_color"></i>
                     }
                     {
-                        (project.tech.nodeJs) && <i className="fa-brands fa-node-js fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
+                        (project.tech.nodeJs) && <i className="fa-brands fa-node-js fa-xl me-3 icon_color"></i>
                     }
                     {
-                        (project.tech.sass) && <i className="fa-brands fa-sass fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
+                        (project.tech.sass) && <i className="fa-brands fa-sass fa-xl me-3 icon_color"></i>
                     }
                     {
-                        (project.tech.react) && <i className="fa-brands fa-react fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
+                        (project.tech.react) && <i className="fa-brands fa-react fa-xl me-3 icon_color"></i>
                     }
                     {
-                        (project.tech.css) && <i className="fa-brands fa-css3 fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
+                        (project.tech.css) && <i className="fa-brands fa-css3 fa-xl me-3 icon_color"></i>
                     }
                     {
-                        (project.tech.html) && <i className="fa-brands fa-html5 fa-xl me-3" style={{ color: 'rgb(30, 30 , 30)'}}></i>
+                        (project.tech.html) && <i className="fa-brands fa-html5 fa-xl me-3 icon_color"></i>
                     }
                 </div>
                 <a href={ project.ref } target='_blanck' >
                     <button 
                         onMouseEnter={() => changeStyles(project, index)} 
-                        className="btn color-boton text-secondary"
+                        className="btn color-boton text-light"
                         onMouseLeave={changeStylesDefault}
                     >
                         Visitar
