@@ -10,6 +10,11 @@
     line-height: 80px;
 }
 
+.text-color-name{
+  color: var(--color-blanco);
+  text-shadow: 1px 1px 80px var(--color-azul);
+}
+
 /*Texto dinamico*/
 .h1-first .typewriter::before {
     content: "";
