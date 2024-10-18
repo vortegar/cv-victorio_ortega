@@ -1,4 +1,4 @@
-import { Box, Modal, Typography, Backdrop, Fade, Button, Stack, LinearProgress } from "@mui/material"
+import { Box, Modal, Typography, Backdrop, Fade, Button, LinearProgress, Tooltip } from "@mui/material"
 import { useState } from "react"
 
 const style = {
@@ -40,15 +40,13 @@ export const Habilidades = ({hability}) => {
   
   return (
     <Box  className="mt-4 mb-4" >
-      <Button onClick={handleOpen} sx={{
-          color: 'white',
-          '&:hover': {
-            color: '#03abf2',
-          },
-        }}
-        >
-        <i className={hability.icon}></i>
-      </Button>
+      <Tooltip title={hability.description}>
+        <Button onClick={handleOpen} sx={{
+          color: 'white', '&:hover': {color: '#03abf2'}}}
+          >
+          <i className={hability.icon}></i>
+        </Button>
+      </Tooltip>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"

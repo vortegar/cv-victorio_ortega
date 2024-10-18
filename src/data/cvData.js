@@ -5,6 +5,21 @@ export const educationData = [
         date     : 'Diciembre 2016'
     },
     {
+        course   : 'Patrones de diseño',
+        institute: 'Udemy',
+        date     : 'Septiembre 2024'
+    },
+    {
+        course   : 'Ruby',
+        institute: 'Udemy',
+        date     : 'Abril 2024'
+    },
+    {
+        course   : 'Sql',
+        institute: 'Udemy',
+        date     : 'Noviembre 2023'
+    },
+    {
         course   : 'React Pro',
         institute: 'Udemy',
         date     : 'Julio 2023'
@@ -73,8 +88,20 @@ export const educationData = [
 export const habilitysData = [
     
     {
+        id : 1,
+        title      : 'Ruby',
+        description: 'ruby',
+        icon       : 'fa-regular fa-gem fa-2x',
+        icon_exp   : 'fa-regular fa-gem fa-1x',
+        exp        : 'Emplear el ORM de Ruby para realizar consultas a la base de datos, asi como tambien trabajar bajo la programación orientada a objetos.',
+        years_exp  : '1 años',
+        progress   : 45,
+        level_exp  : 'Nivel Medio'
+    },
+    {
+        id : 2,
         title      : 'JavaScript',
-        description: 'JavaScript',
+        description: 'javaScript',
         icon       : 'fa-brands fa-square-js fa-2x',
         icon_exp   : 'fa-brands fa-square-js fa-1x',
         exp        : 'Utilizo las funciones de ES6 como arrow functions y destructuring para optimizar el rendimiento y mejorar la legibilidad del código, lo que resulta en una notable simplificación del flujo de trabajo del equipo.',
@@ -83,6 +110,7 @@ export const habilitysData = [
         level_exp  : 'Nivel Medio'
     },
     {
+        id : 3,
         title      : 'NodeJs',
         description: 'NodeJs',
         icon       : 'fa-brands fa-node fa-2x',
@@ -93,6 +121,7 @@ export const habilitysData = [
         level_exp  : 'Nivel Medio'
     },
     {
+        id : 4,
         title      : 'React',
         description: 'React',
         icon       : 'fa-brands fa-react fa-2x',
@@ -103,6 +132,7 @@ export const habilitysData = [
         level_exp  : 'Nivel Avanzado'
     },
     {
+        id : 5,
         title      : 'SQL',
         description: 'Base de datos',
         icon       : 'fa-solid fa-database fa-2x',
@@ -112,22 +142,8 @@ export const habilitysData = [
         progress   : 30,
         level_exp  : 'Nivel Bajo'
     },
-    // {
-    //     title      : 'TypesCript',
-    //     description: 'TypesCript',
-    //     icon       : 'fa-solid fa-scroll fa-3x'
-    // },
     {
-        title      : 'Sass',
-        description: 'Sass',
-        icon       : 'fa-brands fa-sass fa-2x',
-        icon_exp   : 'fa-brands fa-sass fa-1x',
-        exp        : 'Utilizo Sass para agilizar el desarrollo front-end, creando estilos reutilizables, variables y mixins que optimizan el diseño y la mantenibilidad en los proyectos.',
-        years_exp  : '2 años',
-        progress   : 55,
-        level_exp  : 'Nivel Medio'
-    },
-    {
+        id : 6,
         title      : 'Boostrap',
         description: 'Boostrap',
         icon       : 'fa-brands fa-bootstrap fa-2x',
@@ -138,6 +154,7 @@ export const habilitysData = [
         level_exp  : 'Nivel Avanzado'
     },
     {
+        id : 7,
         title      : 'CSS',
         description: 'CSS',
         icon       : 'fa-brands fa-css3-alt fa-2x',
@@ -148,6 +165,7 @@ export const habilitysData = [
         level_exp  : 'Nivel Avanzado'
     },
     {
+        id : 8,
         title      : 'HTML',
         description: 'HTML',
         icon       : 'fa-brands fa-html5 fa-2x',
@@ -158,6 +176,7 @@ export const habilitysData = [
         level_exp  : 'Nivel Avanzando'
     },
     {
+        id : 9,
         title      : 'GIT',
         description: 'GIT',
         icon       : 'fa-brands fa-github fa-2x',
@@ -168,6 +187,18 @@ export const habilitysData = [
         level_exp  : 'Nivel Medio'
     },
     {
+        id : 10,
+        title      : 'Python',
+        description: 'python',
+        icon       : 'fa-brands fa-python fa-2x',
+        icon_exp   : 'fa-brands fa-python fa-1x',
+        exp        : 'He realizado pequeños scripts para obtener información usando este lenguaje',
+        years_exp  : '1 años',
+        progress   : 25,
+        level_exp  : 'Nivel Bajo'
+    },
+    {
+        id : 11,
         title      : 'Desarrollo de proyectos',
         description: 'Desarrollo de proyectos',
         icon       : 'fa-solid fa-chart-gantt fa-2x',
@@ -177,7 +208,6 @@ export const habilitysData = [
         progress   : 60,
         level_exp  : 'Nivel Medio'
     },
-
 ]
 
 export const projectsData = [
@@ -324,16 +354,16 @@ export const projectsData = [
     }
 ]
 export const experienciaData = [
-    
-
-    
+        
     {
+        id: 1,
         title: 'Integration Analyst',
         subtitle:'Buk',
         date: 'Enero 2024 - Actualidad',
         description: `Asegurar la interoperabilidad y la integración eficiente de diferentes aplicaciones dentro de un entorno más amplio, garantizando que trabajen de manera conjunta y efectiva para cumplir con los objetivos.`
     },
     {
+        id: 2,
         title: 'Desarrollador Front end',
         subtitle:'Digitech Solutions',
         date: 'Mayo 2023 - Enero 2024',
@@ -341,6 +371,7 @@ export const experienciaData = [
     },
 
     {
+        id: 3,
         title: 'Desarrollador web freelance',
         subtitle:'Freelance',
         date: 'Septiembre 2022 - Abril 2023',
@@ -349,6 +380,7 @@ export const experienciaData = [
     },
 
     {
+        id: 4,
         title: 'Modelador BIM',
         subtitle:'Instelecsa Ltda.',
         date: 'Abril 2019 - Noviembre 2022',
@@ -356,6 +388,7 @@ export const experienciaData = [
     },
     
     {
+        id: 5,
         title: 'Desarrollador Web Freelance',
         subtitle:'Freelance',
         date: 'Marzo 2022 - Agosto 2022',

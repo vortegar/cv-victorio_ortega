@@ -18,7 +18,7 @@ export const SeccionSobreExperiencia = () => {
                         E<p className='sobre_experiencia_text-title'>xperiencia</p><img src="./img/experiencia.png" alt="Experiencia" className="img-custom-size"/>
                       </h2>
                   </div>
-                  <div className='mb-2 px-0 col-12 d-flex justify-content-center align-items-center experiencia_contenido'>
+                  <div className='mb-2 px-0 col-12 justify-content-center align-items-center experiencia_contenido'>
                     <Swiper
                       modules={[ Pagination, A11y]}
                       A11y={{
@@ -29,31 +29,9 @@ export const SeccionSobreExperiencia = () => {
                         ell:".pagination",
                         clickable: true 
                       }}
-                      spaceBetween={10}
-                      slidesPerView={4}
-                      breakpoints={{
-                        "@0.00":{
-                          slidesPerView:1,
-                        },
-                        "@0.50":{
-                          slidesPerView:1,
-                        },
-                        "@1.00":{
-                          slidesPerView:2,
-                        },
-                        "@1.25":{
-                          slidesPerView:3,
-
-                        },
-                        "@1.50":{
-                          slidesPerView:4,
-
-                        },
-                        "@1.75":{
-                          slidesPerView:4,
-                        },
-
-                      }}
+                      spaceBetween={20}
+                      slidesPerView={3}
+                    
                       // onSwiper={(swiper) => console.log(swiper)}
                     >
                       {experienciaData.map((data,index)=>(

@@ -17,7 +17,7 @@ export const SeccionSobreHabilidades = () => {
                         <div className='d-flex flex-wrap mb-5'>
                             {
                                 habilitysData.map( hability => (
-                                    <div key={hability.name} className=" col-4 col-lg-3 text-center">
+                                    <div key={hability.id} className=" col-4 col-lg-3 text-center">
                                         <Habilidades hability={hability}/>
                                     </div>
                                 ))
