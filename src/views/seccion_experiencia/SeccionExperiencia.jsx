@@ -5,8 +5,23 @@ import { experienciaData } from "../../data/cvData"
 import './styles_experiencia.css'
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { useEffect, useState } from 'react';
 
 export const SeccionSobreExperiencia = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (    
     <>
@@ -30,9 +45,7 @@ export const SeccionSobreExperiencia = () => {
                         clickable: true 
                       }}
                       spaceBetween={20}
-                      slidesPerView={3}
-                    
-                      // onSwiper={(swiper) => console.log(swiper)}
+                      slidesPerView={isMobile ? 1 : 3}
                     >
                       {experienciaData.map((data,index)=>(
                         <SwiperSlide key={index}>
