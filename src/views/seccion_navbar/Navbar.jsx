@@ -1,4 +1,5 @@
 import { List } from "./components/ListComponent"
+
 import './styles_navbar.css'
 
 export const Navbar = () => {

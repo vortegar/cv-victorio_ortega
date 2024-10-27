@@ -1,15 +1,16 @@
 import { Footer } from './views/seccion_footer/Footer';
 import { SeccionSobreMi } from './views/seccion_sobre_mi/SeccionSobreMi';
-import { SeccionSobreHabilidades } from './views/seccion_habilidades/SeccionHabilidades';
-import { SeccionSobreEducacion } from './views/seccion_educacion/SeccionEducacion';
 import { SeccionPortafolio } from './views/seccion_portafolio/SeccionPortafolio';
+import { SeccionSobreEducacion } from './views/seccion_educacion/SeccionEducacion';
 import { SeccionSobreExperiencia } from './views/seccion_experiencia/SeccionExperiencia';
+import { SeccionSobreHabilidades } from './views/seccion_habilidades/SeccionHabilidades';
 
 import './styles.css'
 
 import { Fade } from 'react-awesome-reveal';
-import { SeccionMiNombre } from './views/seccion_mi_nombre/SeccionMiNombre';
+
 import { Navbar } from './views/seccion_navbar/Navbar';
+import { SeccionMiNombre } from './views/seccion_mi_nombre/SeccionMiNombre';
 
 function Curriculum() {
 
