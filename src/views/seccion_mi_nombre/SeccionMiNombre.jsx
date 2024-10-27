@@ -8,7 +8,7 @@ export const SeccionMiNombre = () => {
             <div className='row my-5'>
                 <div className=' col-12 d-lg-flex text-center name_cv_text d-block justify-content-center mt-lg-5'> 
                     <p className='text-color-name'>Victorio</p>
-                    <p className='text-color-name ps-lg-4'>Ortega</p>
+                    <p className='text-color-name ps-lg-4'>Ortega!!</p>
                 </div>
                 <div className='mt-3'>
                     <div className="h1-first mt-5 d-flex justify-content-center">
