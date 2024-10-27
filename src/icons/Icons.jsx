@@ -22,7 +22,7 @@ export const Icons = ({styles}) => {
             </a>
         </div>
         <div className="mt-2">
-            <a href="../../public/Download/CV_Victorio_Ortega.pdf" download="CV-Victorio-Ortega" target="_blank" rel="noopener noreferrer">
+            <a href="../../public/Download/CV_Victorio_Ortega.pdf" download="CV-Victorio-Ortega.pdf" target="_blank" rel="noopener noreferrer">
                 <PdfIcon helpertext='Descargar Cv'/>
             </a>
         </div>
