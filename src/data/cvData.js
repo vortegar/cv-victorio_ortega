@@ -359,7 +359,7 @@ export const experienciaData = [
         id: 1,
         title: 'Integration Analyst',
         subtitle:'Buk',
-        date: 'Enero 2024 - Actualidad',
+        date: 'Enero 2024 - Noviembre 2024',
         description: `Asegurar la interoperabilidad y la integración eficiente de diferentes aplicaciones dentro de un entorno más amplio, garantizando que trabajen de manera conjunta y efectiva para cumplir con los objetivos.`
     },
     {
