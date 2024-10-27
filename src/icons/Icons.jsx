@@ -1,6 +1,6 @@
+import { PdfIcon } from "./icons-file/PdfIcon";
 import { GithubIcon } from "./icons-file/GithubIcon";
 import { LinkedinIcon } from "./icons-file/LinkedinIcon";
-import { PdfIcon } from "./icons-file/PdfIcon";
 import { WhatsappIcon } from "./icons-file/WhatsappIcon";
 
 export const Icons = ({styles}) => {
