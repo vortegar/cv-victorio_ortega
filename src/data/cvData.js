@@ -360,39 +360,57 @@ export const experienciaData = [
         title: 'Integration Analyst',
         subtitle:'Buk',
         date: 'Enero 2024 - Noviembre 2024',
-        description: `Asegurar la interoperabilidad y la integración eficiente de diferentes aplicaciones dentro de un entorno más amplio, garantizando que trabajen de manera conjunta y efectiva para cumplir con los objetivos.`
+        description: `
+            Software de recursos humanos con mas de 2.000 clientes en latinoamérica.
+            La empresa implementa diversos módulos para resolver las necesidades comunes de los clientes.
+            Mi rol consistió en realizar integraciones contables entre la plataforma Buk con el ERP del cliente,
+            asi como tambien promover y crear contenido educativo relacionado al área.
+        `
     },
     {
         id: 2,
         title: 'Desarrollador Front end',
         subtitle:'Digitech Solutions',
         date: 'Mayo 2023 - Enero 2024',
-        description: `Desarrollo y participación activamente en la planificación y el diseño de nuevos proyectos, colaborando con el equipo de diseño y el equipo de Back-end para lograr resultados integrales y cohesivos.`
+        description: `
+            Consultora especializada en optimizar procesos de trabajo y desarrollar soluciones para pequeñas y medianas empresas.
+            Me desempeñe como desarrollador frontend, colaborando con los equipos de backend y DevOps para ofrecer soluciones eficientes
+            a los diversos clientes, ádemas de brindar soporte técnico a las aplicaciones.
+        `
     },
 
     {
         id: 3,
         title: 'Desarrollador web freelance',
         subtitle:'Freelance',
-        date: 'Septiembre 2022 - Abril 2023',
-        description: `Elaborar páginas y aplicaciones web funcionales utilizando herramientas de desarrollo web como HTML, React,
-        Nodejs Express, CSS, Sass, Boostrap, javascript entre otros. Conocimiento en el sistema de versiones GIT.`
+        date: 'Octubre 2022 - Abril 2023',
+        description: `
+            Desarrollador Web freelance especializado en brindar soluciones a clientes individuales y pequeñas empresas,
+            enfocadas en satisfacer sus necesidades específicas. Mi trabajo abarca desde el levantamiento de requerimientos hasta
+            la puesta en producción, garantizando un proceso completo y eficiente.
+        `
+    },
+    {
+        id: 4,
+        title: 'Desarrollo de App tipo eCommerce',
+        subtitle:'Freelance',
+        date: 'Marzo 2022 - Agosto 2022',
+        description: `
+            Desarrollo de pàginas web tipo e-commerce utilizando WordPress y WooCommerce, donde los usuarios pueden explorar
+            una amplia variedad de productos y añadirlos dinámicamente al carrito de compras, garantizando una experiencia fluida y
+            personalizada.
+        `
     },
 
     {
-        id: 4,
+        id: 5,
         title: 'Modelador BIM',
         subtitle:'Instelecsa Ltda.',
         date: 'Abril 2019 - Noviembre 2022',
-        description: `Responsable del modelado BIM para las instalaciones eléctricas, telecomunicaciones y sistemas de control débiles en edificios y urbanizaciones. Mi trabajo consistía en resolver interferencias en el recorrido de estas instalaciones en relación con otras especialidades.`
+        description: `
+            Responsable del Modelado BIM para instalaciones eléctricas, telecomunicaciones y sistemas de corrientes débiles en edificios
+            y urbanizaciones. Mi trabajo consistía en resolver interferencias en el recorrido de estas instalaciones en relación con otras 
+            especialidades.
+        `
     },
-    
-    {
-        id: 5,
-        title: 'Desarrollador Web Freelance',
-        subtitle:'Freelance',
-        date: 'Marzo 2022 - Agosto 2022',
-        description: `Elaborar paginas y aplicaciones web funcionales utilizando herramientas de desarrollo web como: HTML, React, 
-        Node.js, Express y MongoDB (Stack MERN), CSS, JavaScript, entre otros. Conocimientos en el sistema de versionado GIT.`
-    }
 ]
